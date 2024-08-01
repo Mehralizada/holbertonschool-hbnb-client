@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details</title>
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../style/place.css">
+</head>
+
+<body>
+    <header>
+        <a href="../templates/index.html"><img src="../assets/logo.png" alt="Logo" class="logo"></a>
+        <nav>
+            <a href="../templates/login.html" id="login-link" class="login-button">Login</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Beautiful Beach House</h1>
+        <section id="place-details" class="place-details">
+            <p><strong>Host:</strong> John Doe</p>
+            <p><strong>Price per night:</strong> $150</p>
+            <p><strong>Location:</strong> Los Angeles, United States</p>
+            <p><strong>Description:</strong> A beautiful beach house with amazing views...</p>
+            <p><strong>Amenities:</strong> WiFi, Pool, Air Conditioning</p>
+        </section>
+        <p class="review_declare">Reviews</p>
+        <section id="reviews">
+            <div class="review-card">
+                <p><strong>Jane Smith:</strong></p>
+                <p>Great place to stay!</p>
+                <p><strong>Rating:</strong> ★★★★☆</p>
+            </div>
+            <div class="review-card">
+                <p><strong>Robert Brown:</strong></p>
+                <p>Amazing location and very comfortable.</p>
+                <p><strong>Rating:</strong> ★★★★★</p>
+            </div>
+        </section>
+        <div class="review-form">
+            <h3>Add a Review</h3>
+            <form action="/submit-review" method="post">
+                <div class="form-group">
+                    <label for="review-text">Your Review:</label>
+                    <textarea id="review-text" name="review" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="1">1 Star</option>
+                        <option value="2">2 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="5">5 Stars</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-button">Submit Review</button>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>© 2024 HBnB Evolution. All rights reserved.</p>
+    </footer>
+    <script src="../dynamic/script.js"></script>
+</body>
+
+</html>

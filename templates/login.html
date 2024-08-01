@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="../templates/index.html"> <img src="../assets/logo.png" alt="Logo" class="logo"></a>
+        <nav>
+            <a href="../templates/login.html" id="login-link" class="login-button">Login</a>
+        </nav>
+    </header>
+    <main class="login-container">
+        <form id="login-form" class="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="submit-button">Login</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 HBnB Evolution. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
