@@ -1,0 +1,77 @@
+main {
+  padding: 2rem;
+}
+
+#filter_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+#country-filter {
+  padding: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.places {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.place-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  width: 320px;
+  height: 320px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-card h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.place-card p {
+  margin: 10px 0;
+}
+
+.details-button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.details-button a {
+  text-decoration: none;
+  color: white;
+}
